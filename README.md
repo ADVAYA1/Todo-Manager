@@ -1,7 +1,7 @@
 
 ---
 
-# 📝 Task Manager - MERN Stack
+# 📝 Todo Manager - MERN Stack
 
 A full-stack **Task Management (Todo)** web application built with the **MERN stack**. This project enables users to register, log in, and manage tasks efficiently using a sleek, responsive UI and a secure backend. Features include authentication, drag-and-drop reordering, filtering, and persistent storage with MongoDB Atlas.
 
@@ -9,7 +9,7 @@ A full-stack **Task Management (Todo)** web application built with the **MERN st
 
 ## 🚀 Project Overview
 
-- **Name**: Task Manager  
+- **Name**: Todo Manager  
 - **Type**: Full-Stack Web Application  
 - **Frontend**: React, Tailwind CSS, Redux, React Query  
 - **Backend**: Node.js, Express.js, MongoDB Atlas  

@@ -1,4 +1,3 @@
-Here’s the updated and cleaner **README description** for your MERN Task Manager project, with the **Folder Structure**, **Future Improvements**, and **System Architecture** sections removed:
 
 ---
 

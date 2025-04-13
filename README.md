@@ -3,7 +3,7 @@
 
 # 📝 Task Manager - MERN Stack
 
-A full-stack **Task Management (Todo)** web application built with the **MERN stack**. This project enables users to register, log in, and manage tasks efficiently using a sleek, responsive UI and a secure backend. Features include authentication, task CRUD operations, drag-and-drop reordering, filtering, and persistent storage with MongoDB Atlas.
+A full-stack **Task Management (Todo)** web application built with the **MERN stack**. This project enables users to register, log in, and manage tasks efficiently using a sleek, responsive UI and a secure backend. Features include authentication, drag-and-drop reordering, filtering, and persistent storage with MongoDB Atlas.
 
 ---
 
@@ -14,9 +14,8 @@ A full-stack **Task Management (Todo)** web application built with the **MERN st
 - **Frontend**: React, Tailwind CSS, Redux, React Query  
 - **Backend**: Node.js, Express.js, MongoDB Atlas  
 - **Database**: MongoDB (via Mongoose)  
-- **Authentication**: JWT + Bcrypt  
+- **Authentication**: JWT   
 - **Drag & Drop**: React Beautiful DND  
-- **Form Validation**: React Hook Form + Zod  
 - **UI Components**: Flowbite, Lucide, React Icons  
 - **Notifications**: React Toastify  
 
@@ -26,13 +25,12 @@ A full-stack **Task Management (Todo)** web application built with the **MERN st
 
 ### 🧑‍💼 User Features
 - Register and login securely with JWT  
-- Passwords hashed with bcrypt  
-- Signed cookies for secure token storage  
-- Optional profile picture  
+- Passwords hashed with bcrypt    
 
 ### ✅ Task Management
-- Create, update, delete tasks  
-- Assign tasks to users  
+- Create Task (Title, Description, Category, Priority, Due date)
+- update, delete tasks
+- Search (using Title or Description)  
 - Filter tasks by:
   - **Status**: To Do, In Progress, Done  
   - **Priority**: Low, Medium, High  
@@ -40,8 +38,7 @@ A full-stack **Task Management (Todo)** web application built with the **MERN st
 
 ### 💻 UI/UX
 - Responsive design with Tailwind CSS  
-- Toast notifications and loading spinners  
-- Validated forms with Zod  
+- Toast notifications   
 - Seamless navigation with React Router  
 
 ---
@@ -49,31 +46,25 @@ A full-stack **Task Management (Todo)** web application built with the **MERN st
 ## 🗂️ Tech Stack
 
 ### Frontend
-- `React` (SPA architecture)  
-- `Vite` (fast dev server)  
+- `React` 
 - `Tailwind CSS`, `Flowbite`, `Lucide`, `React Icons`  
 - `Redux Toolkit`, `React Query` for state management  
-- `React Hook Form`, `Zod` for forms  
 - `Axios` for API communication  
-- `Firebase` (optional: for auth or storage)  
+- `Firebase`  
 - `React Beautiful DND` (task reordering)  
 
 ### Backend
 - `Express.js`, `Node.js`  
 - `MongoDB` + `Mongoose`  
-- `JWT`, `Bcrypt` for auth  
-- `dotenv`, `cookie-parser`, `cors`, `nodemon`  
-
+- `JWT` for auth  
 ---
 
 ## 🔐 Security
 
 - JWT-based authentication  
-- Bcrypt password hashing  
-- Secure cookies (`httpOnly`, `signed`)  
+- Bcrypt password hashing   
 - CORS protection  
 - Input validations and schema constraints  
-
 ---
 
 ## ⚙️ Project Setup
@@ -118,4 +109,3 @@ MIT License
 
 ---
 
-Let me know if you'd like me to export this into a `README.md` file for download or push it directly into your GitHub repo.
